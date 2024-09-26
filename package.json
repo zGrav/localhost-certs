@@ -12,6 +12,6 @@
     "selfsigned": "^2.4.1"
   },
   "scripts": {
-    "postinstall": "node install.js",
+    "postinstall": "node install.js"
   }
 }
