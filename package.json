@@ -1,0 +1,17 @@
+{
+  "name": "z-localhost-certs",
+  "version": "0.0.7",
+  "description": "generates localhost certs for https",
+  "main": "index.js",
+  "repository": "https://github.com/zgrav/localhost-certs",
+  "author": "David Silva <me@zgrav.pro>",
+  "license": "Unlicense",
+  "private": false,
+  "type": "commonjs",
+  "dependencies": {
+    "selfsigned": "^2.4.1"
+  },
+  "scripts": {
+    "postinstall": "node install.js",
+  }
+}
